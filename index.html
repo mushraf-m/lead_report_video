@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo ERP</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .video-container {
+            width: 80%;
+
+            max-width: 1400px;
+
+            height: auto;
+
+            position: relative;
+
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="./ubuntu [Running] - Oracle VM VirtualBox 2024-08-19 09-03-58.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.querySelector('video');
+            video.playbackRate = 1.50;
+        });
+    </script>
+</body>
+
+</html>
